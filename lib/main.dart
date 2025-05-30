@@ -208,7 +208,7 @@ class _SexoPageState extends State<SexoPage> {
     try {
       final response = await http.get(
         Uri.parse(
-          'https://educaysoft.org/apple6a/app/controllers/SexoController.php?action=api',
+          'https://educaysoft.org/microsoft6b/app/controllers/SexoController.php?action=api',
         ),
       );
 
