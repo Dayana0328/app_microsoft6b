@@ -5,9 +5,9 @@ plugins {
 }
 
 android {
-    namespace = "com.example.app_whatsapp6a"
+    namespace = "com.example.app_microsoft6b"
     compileSdk = flutter.compileSdkVersion.toInt()  // Asegúrate de convertirlo a Int
-    ndkVersion = flutter.ndkVersion
+    ndkVersion = "27.0.12077973"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
@@ -19,7 +19,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.app_whatsapp6a"
+        applicationId = "com.example.app_microsoft6b"
         minSdk = flutter.minSdkVersion.toInt()  // Conversión a Int
         targetSdk = flutter.targetSdkVersion.toInt()  // Conversión a Int
         versionCode = flutter.versionCode?.toInt() ?: 1  // Manejo de nulo
