@@ -52,11 +52,11 @@ class _ApiDataViewerState extends State<ApiDataViewer> with SingleTickerProvider
   DateTime? lastUpdateTime;
 
   final Map<String, String> apiEndpoints = {
-    'Sexos': 'https://educaysoft.org/whatsapp6a/app/controllers/SexoController.php?action=api',
-    'Teléfonos': 'https://educaysoft.org/whatsapp6a/app/controllers/TelefonoController.php?action=api',
-    'Estados Civiles': 'https://educaysoft.org/whatsapp6a/app/controllers/EstadocivilController.php?action=api',
-    'Direcciones': 'https://educaysoft.org/whatsapp6a/app/controllers/DireccionController.php?action=api',
-    'Personas': 'https://educaysoft.org/whatsapp6a/app/controllers/PersonaController.php?action=api',
+    'Sexos': 'https://educaysoft.org/microsoft6b/app/controllers/SexoController.php?action=api',
+    'Teléfonos': 'https://educaysoft.org/microsoft6b/app/controllers/TelefonoController.php?action=api',
+    'Estados Civiles': 'https://educaysoft.org/microsoft6b/app/controllers/EstadocivilController.php?action=api',
+    'Direcciones': 'https://educaysoft.org/microsoft6b/app/controllers/DireccionController.php?action=api',
+    'Personas': 'https://educaysoft.org/microsoft6b/app/controllers/PersonaController.php?action=api',
   };
 
   @override
